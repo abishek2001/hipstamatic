@@ -1,0 +1,40 @@
+*{
+  margin:0;
+}
+.app{
+  background-color: black;
+  height: auto;
+}
+.app_header{
+  position: sticky;
+  top:0;
+  z-index:1;
+  background-color: rgb(255, 255, 255);
+  object-fit: contain;
+  padding: 1.25rem;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.app_posts{
+  padding: 1.25rem;
+
+}
+.app_headerImage{
+  height: 2.3rem;
+}
+.app_headerIcon{
+  display: block;
+  margin-right: 5.4rem;
+  height: 2.3rem;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ padding: 20px;
+}
+.sorry{
+  color: white;
+}
